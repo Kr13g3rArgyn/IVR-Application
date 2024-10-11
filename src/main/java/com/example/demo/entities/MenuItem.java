@@ -21,6 +21,7 @@ public class MenuItem {
 
     private String title;
     private String action;
+    @Column(name = "message_menu_item")
     private String message;
 
     @Embedded
