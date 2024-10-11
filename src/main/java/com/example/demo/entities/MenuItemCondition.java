@@ -12,8 +12,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class MenuItemCondition {
-    private String comparison;
     private Integer threshold;
+    private String comparison;
     private String message;
     private String messageIfTrue;
     private String messageIfFalse;
